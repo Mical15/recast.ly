@@ -1,0 +1,20 @@
+var Search = props => /*#__PURE__*/React.createElement("div", {
+  className: "search-bar form-inline"
+}, /*#__PURE__*/React.createElement("input", {
+  onChange: e => props.searchHandler(e.target.value),
+  className: "form-control",
+  id: "input",
+  type: "text"
+}), /*#__PURE__*/React.createElement("button", {
+  type: "submit",
+  className: "btn hidden-sm-down"
+}, /*#__PURE__*/React.createElement("span", {
+  className: "glyphicon glyphicon-search"
+}))); // onkeyup=
+// onClick={props.searchHandler('squirrles')}
+// In the ES6 spec, files are "modules" and do not share a top-level scope
+// `var` declarations will only exist globally where explicitly defined
+
+
+export default Search;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb21wb25lbnRzL1NlYXJjaC5qc3giXSwibmFtZXMiOlsiU2VhcmNoIiwicHJvcHMiLCJlIiwic2VhcmNoSGFuZGxlciIsInRhcmdldCIsInZhbHVlIl0sIm1hcHBpbmdzIjoiQUFBQSxJQUFJQSxNQUFNLEdBQUlDLEtBQUQsaUJBQ1g7QUFBSyxFQUFBLFNBQVMsRUFBQztBQUFmLGdCQUNFO0FBQU8sRUFBQSxRQUFRLEVBQUdDLENBQUQsSUFBT0QsS0FBSyxDQUFDRSxhQUFOLENBQW9CRCxDQUFDLENBQUNFLE1BQUYsQ0FBU0MsS0FBN0IsQ0FBeEI7QUFBNkQsRUFBQSxTQUFTLEVBQUMsY0FBdkU7QUFBc0YsRUFBQSxFQUFFLEVBQUMsT0FBekY7QUFBaUcsRUFBQSxJQUFJLEVBQUM7QUFBdEcsRUFERixlQUVFO0FBQVEsRUFBQSxJQUFJLEVBQUMsUUFBYjtBQUFzQixFQUFBLFNBQVMsRUFBQztBQUFoQyxnQkFDRTtBQUFNLEVBQUEsU0FBUyxFQUFDO0FBQWhCLEVBREYsQ0FGRixDQURGLEMsQ0FTQTtBQUVBO0FBRUE7QUFDQTs7O0FBQ0EsZUFBZUwsTUFBZiIsInNvdXJjZXNDb250ZW50IjpbInZhciBTZWFyY2ggPSAocHJvcHMpID0+IChcbiAgPGRpdiBjbGFzc05hbWU9XCJzZWFyY2gtYmFyIGZvcm0taW5saW5lXCI+XG4gICAgPGlucHV0IG9uQ2hhbmdlPXsoZSkgPT4gcHJvcHMuc2VhcmNoSGFuZGxlcihlLnRhcmdldC52YWx1ZSl9IGNsYXNzTmFtZT1cImZvcm0tY29udHJvbFwiIGlkPSdpbnB1dCcgdHlwZT1cInRleHRcIiAvPlxuICAgIDxidXR0b24gdHlwZT0nc3VibWl0JyBjbGFzc05hbWU9XCJidG4gaGlkZGVuLXNtLWRvd25cIj5cbiAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImdseXBoaWNvbiBnbHlwaGljb24tc2VhcmNoXCI+PC9zcGFuPlxuICAgIDwvYnV0dG9uPlxuICA8L2Rpdj5cbik7XG5cbi8vIG9ua2V5dXA9XG5cbi8vIG9uQ2xpY2s9e3Byb3BzLnNlYXJjaEhhbmRsZXIoJ3NxdWlycmxlcycpfVxuXG4vLyBJbiB0aGUgRVM2IHNwZWMsIGZpbGVzIGFyZSBcIm1vZHVsZXNcIiBhbmQgZG8gbm90IHNoYXJlIGEgdG9wLWxldmVsIHNjb3BlXG4vLyBgdmFyYCBkZWNsYXJhdGlvbnMgd2lsbCBvbmx5IGV4aXN0IGdsb2JhbGx5IHdoZXJlIGV4cGxpY2l0bHkgZGVmaW5lZFxuZXhwb3J0IGRlZmF1bHQgU2VhcmNoO1xuIl19
